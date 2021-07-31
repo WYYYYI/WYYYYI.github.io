@@ -24,4 +24,25 @@
         <tag>img</tag>
       </tags>
   </entry>
+  <entry>
+    <title>照片</title>
+    <url>/2021/07/31/firstPhoto/</url>
+    <content><![CDATA[<p>[TOC]</p>
+<h5 id="照片1"><a href="#照片1" class="headerlink" title="照片1"></a>照片1</h5><p><img src="/img/1.jpeg" alt="tiger1"></p>
+<h5 id="照片2"><a href="#照片2" class="headerlink" title="照片2"></a>照片2</h5><p><img src="/img/3.jpeg" alt="图片名"></p>
+<p>1111</p>
+]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>img</tag>
+        <tag>first</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>作品1</title>
+    <url>/2021/07/31/%E4%BD%9C%E5%93%811/</url>
+    <content><![CDATA[]]></content>
+  </entry>
 </search>
