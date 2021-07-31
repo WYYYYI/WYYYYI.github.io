@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/09/27/hello-world/</url>
+    <content><![CDATA[<h5 id="占位"><a href="#占位" class="headerlink" title="占位"></a>占位</h5>]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>nothing</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2021/07/31/test/</url>
+    <content><![CDATA[<h5 id="图1"><a href="#图1" class="headerlink" title="图1"></a>图1</h5><p><img src="/img/1.jpeg"></p>
+<h5 id="图2"><a href="#图2" class="headerlink" title="图2"></a>图2</h5><p><img src="/img/2.jpeg"></p>
+]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>img</tag>
+      </tags>
+  </entry>
+</search>
