@@ -137,8 +137,69 @@
 ]]></content>
   </entry>
   <entry>
+    <title>《天府相册》APP设计与总结</title>
+    <url>/2020/06/28/xiangceAPP/</url>
+    <content><![CDATA[<p><img src="/img/app10.jpg"></p>
+<h2 id="相册项目总结"><a href="#相册项目总结" class="headerlink" title="相册项目总结"></a><center>相册项目总结</center></h2><h3 id="一、项目时间线"><a href="#一、项目时间线" class="headerlink" title="一、项目时间线"></a>一、项目时间线</h3><p>· 2020.6.28——2020.7.28：交互稿设计（修改了9次）</p>
+<p>· 2020.7.29——2020.8.17：视觉稿设计（修改了4次）</p>
+<p>· 2020.8.18——2020.9.10：UI规范文档撰写（修改了5次）</p>
+<h3 id="二、问题剖析"><a href="#二、问题剖析" class="headerlink" title="二、问题剖析"></a>二、问题剖析</h3><h4 id="交互："><a href="#交互：" class="headerlink" title="交互："></a>交互：</h4><ol>
+<li><p><strong>不符合一致性（操作）——相同或相似的功能，操作应该相同</strong></p>
+<p>上传图片跟创建相册都为添加动作，添加逻辑和进入方式不一致</p>
+<p>图片和相册的编辑模式进入方法不一致</p>
+</li>
+<li><p><strong>不符合严谨性——交互逻辑应该经得起推敲</strong></p>
+<p> 同时修改两个相册名时无提示界面</p>
+<p>做了不属于app内的界面</p>
+</li>
+<li><p><strong>不符合简洁性 ——操作要简洁</strong></p>
+</li>
+<li><p><strong>篡改需求</strong></p>
+</li>
+</ol>
+<h4 id="视觉："><a href="#视觉：" class="headerlink" title="视觉："></a>视觉：</h4><ol>
+<li><p><strong>不符合一致性（界面）——图标、文案、色彩、布局、字体等都要保持一致性</strong></p>
+<p>页面风格不统一</p>
+<p>同时使用了pc端和移动端的图标</p>
+</li>
+<li><p><strong>不符合最小惊讶原则——功能按钮的设置应该符合用户的操作习惯</strong></p>
+</li>
+<li><p><strong>app配色方案单调</strong></p>
+<p>颜色只有黑白灰</p>
+</li>
+</ol>
+<h4 id="规范文档："><a href="#规范文档：" class="headerlink" title="规范文档："></a>规范文档：</h4><ol>
+<li><strong>不具有指导性——UI规范是作为项目指导通用的,不限制于特定项目</strong></li>
+<li><strong>配色方案太少——针对不同类型的app设计不同的配色方案</strong></li>
+<li><strong>组件拆分不正确，部分组件尺寸未标明</strong></li>
+<li><strong>文档没有美术设计感</strong></li>
+</ol>
+<h3 id="三、经验总结"><a href="#三、经验总结" class="headerlink" title="三、经验总结"></a>三、经验总结</h3><ol>
+<li><p><strong>交互在前，视觉在后</strong></p>
+<p>我们在最开始做项目的时候把交互和视觉混为一谈，做交互稿的同时把视觉设计也做了，两个方面都没有做的很好，在后面在修改交互的时候要连带着视觉稿一起修改，真正该做视觉稿的时候还要在PS里重复做一遍操作，降低了效率；正确的做法应该是前期先做交互稿，暂时先不考虑视觉效果，确定好交互之后再去美化页面。</p>
+</li>
+<li><p><strong>视觉在前，规范在后</strong></p>
+<p>在开始项目的时候先去网上搜了不同系统的规范，把自己禁锢在各种条条框框里面，按照网上规定的尺寸去定字号，按钮大小，并没有考虑它放在页面里面实际的情况，为了规范而规范是没有意义的。</p>
+</li>
+<li><p><strong>多与前端交流，考虑技术实现</strong></p>
+<p>视觉稿做出来是要交付给前端来实现的，我们在做的时候要考虑界面的可行性和可能存在误差的点，比如我们在视觉稿使用的单位是物理像素，而前端使用的是css像素，二者之间需要进行转换，交付时需要说明。</p>
+</li>
+<li><p><strong>遵守设计原则，注重用户体验</strong></p>
+<p>设计原则参考：<a href="https://www.uisdc.com/ui-design-specification-process">https://www.uisdc.com/ui-design-specification-process</a></p>
+<p>设计尺寸规范：<a href="https://uiiiuiii.com/screen/ios.htm">https://uiiiuiii.com/screen/ios.htm</a></p>
+</li>
+</ol>
+<h3 id="页面展示："><a href="#页面展示：" class="headerlink" title="页面展示："></a>页面展示：</h3><p><img src="/img/app11.jpg"></p>
+<p><img src="/img/app14.jpg"></p>
+<p><img src="/img/app15.jpg"></p>
+<p><img src="/img/app13.jpg"></p>
+<p><img src="/img/app12.jpg"></p>
+<p><img src="/img/app16.jpg"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>《花知》——花艺社交分享APP</title>
-    <url>/2020/12/10/TuBiao%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/</url>
+    <url>/2020/12/10/huazhiAPP/</url>
     <content><![CDATA[<p><img src="/img/app1.jpg"></p>
 <h4 id="市场调研"><a href="#市场调研" class="headerlink" title="市场调研"></a>市场调研</h4><p>鲜花消费于20世纪80年代中期兴起，早期鲜花大多用在会议，婚宴等场所，批量采购，单价较低，另节假日鲜花礼品也成为构成线下花店收入的主要来源。</p>
 <p>随着生活水平的不断提升，人们对于品质生活的追求不断提高，花艺消费市场逐渐走入大家的视线，日常生活中鲜花订阅量需求兴起。从而使得鲜花需求从节假日、礼品逐渐延伸至日常生活中来，整个花艺电商市场需求增加；同时，鲜花市场供给能力提升，鲜花生产数量和生产面积逐渐提升，品种也日益丰富。这些都推动了花艺电商的发展。</p>
@@ -178,9 +239,25 @@
 ]]></content>
   </entry>
   <entry>
-    <title>《保护野生动物》系列海报</title>
-    <url>/2020/10/06/huazhiAPP/</url>
-    <content><![CDATA[<p><img src="/img/hb1.jpg" alt="雪豹"></p>
+    <title>手绘/临摹练习</title>
+    <url>/2020/11/16/draw/</url>
+    <content><![CDATA[<h3 id="素描练习×50："><a href="#素描练习×50：" class="headerlink" title="素描练习×50："></a>素描练习×50：</h3><p><img src="/img/sh1.jpg"></p>
+<h3 id="手绘练习："><a href="#手绘练习：" class="headerlink" title="手绘练习："></a>手绘练习：</h3><p><img src="/img/sh2.jpg"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>《百分百宠》——宠物领养APP</title>
+    <url>/2020/11/16/draw%20-%20%E5%89%AF%E6%9C%AC%20(2)/</url>
+    <content><![CDATA[<h3 id="产品介绍："><a href="#产品介绍：" class="headerlink" title="产品介绍："></a>产品介绍：</h3><p><strong>《百分百宠？是一款什么样的App?</strong><br>《百分百宠,是一款将宠物、领养、动物保护集为一体的手机软件。用户可以在手机客户端为自己的爱宠选择各类服务，也可选择自己心仪的宠物进行领养。用户和用户之间可以在社区进行交流，在商城中为自己的爱宠选择心仪的商品。并且百分百宠也致力于野生动物的保护，提供各个救助场所的志愿报名。</p>
+<p><strong>做这款产品的初衷？</strong><br>在宠物方面，为用户提供个性化的服务，我们一直坚持由领养代替购买，减缓流浪宠物数量的增加。保护野生动物濒危物种是更需要我们重视的一个问题。</p>
+<p><strong>这款APP有哪些特别的功能?</strong><br>结合当下流行的VR虚拟现实技术，扫一扫识别宠物信息。</p>
+<p>志愿者报名参加动物救助，通过筛选保证志愿者质量。</p>
+<p>和各大宠物医院、救护所合作，保证宠物的健康。</p>
+<p>用户可通过合作医院查询到附近的医院名称、地址、电话、营业时间。</p>
+<p>小游戏“守护狗狗”，让更多用户实现云养宠，增加趣味性。</p>
+<p>寄养宠物：寄养宠物中包含两个角色，寄养人与寄养家庭，寄养家庭可以获得报酬。</p>
+<h3 id="页面展示："><a href="#页面展示：" class="headerlink" title="页面展示："></a>页面展示：</h3><p><img src="/img/sh2.jpg"></p>
+<p>素材声明：部分素材源于网络，侵权请联系删除！</p>
 ]]></content>
   </entry>
 </search>
